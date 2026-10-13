@@ -61,6 +61,17 @@ export default function PageShell({ children }: Props) {
           <p className="text-xs leading-relaxed text-ink-muted sm:text-sm">
             Built for Tamil Nadu homes · TNEB bimonthly slabs · Estimates only
           </p>
+          <p className="text-xs leading-relaxed text-ink-muted sm:text-sm">
+  Built by{" "}
+  <a
+    href="https://www.balagururavi.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline text-[#0f766e]"
+  >
+    Balaguru Ravi
+  </a>
+</p>
           <p className="mt-2 text-xs text-ink-subtle sm:text-sm">
             © {new Date().getFullYear()} UB Solars. All rights reserved.
           </p>
